@@ -1,0 +1,9 @@
+.register{
+   height: 600px;
+   width: 50%;
+   margin: 50px;
+   background-color: rgb(210, 214, 214);
+}
+.register h2{
+   margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 6px 20px 0 rgba(58, 55, 55, 0.19);
+  }
+  .navbar-con {
+    width: 100%;
+  }
+  .navbar-con li{
+    list-style: none;
+    
+  }
+  .navbar a {
+    color: #565387;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 6px;
+  }
+  
+  .navbar a:hover {
+    background-color: #565387;
+    color: black;
+    border-radius: 5px;
+  
+  }
+  
+  .navbar li {
+    list-style: none;
+  }
+  
+  @media only screen and (max-width: 540px) {
+    .navbar {
+      height: 250px;
+      
+    }
+  
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
